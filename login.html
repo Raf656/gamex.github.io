@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+
+            background-image: url("https://i.pinimg.com/originals/30/f4/0c/30f40c02566f9981446a10d52ece94bd.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .max-width {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #000000;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffbaba;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #0000004e;
+            padding: 20px;
+            border-radius: 35px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login-container h2 {
+            text-align: center;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #000000;
+            border-radius: 66px;
+        }
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: #00000069;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 66px;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: #0000005b;
+        }
+    </style>
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>ㄥㄖᎶ丨几</h2>
+        <form action="banco-de-dados.sql" method="post">
+            <input class="user" type="text" name="username" placeholder="Usuário" required>
+            <input class="pass" type="password" name="password" placeholder="Senha" required>
+            <br><br>
+           <center><input type="submit" value="Entrar" class="shadow__btn"></center><br>
+
+           
+           
+
+              
+   
+           <center> <p>Não tem conta ainda ? 
+            <a href="criar.html">criar conta</a>
+         </p>
+         <br><a href="inicio.html"><img src="imagens/de-volta.png" alt=""></a></center>
+        </form>
+
+        
+    </div>
+</body>
+</html>
